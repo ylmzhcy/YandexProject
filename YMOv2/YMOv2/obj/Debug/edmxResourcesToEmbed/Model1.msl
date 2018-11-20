@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="YandexMailOpener_dbModelStoreContainer" CdmEntityContainer="YandexMailOpener_dbEntities">
+    <EntitySetMapping Name="RealNames">
+      <EntityTypeMapping TypeName="YandexMailOpener_dbModel.RealNames">
+        <MappingFragment StoreEntitySet="RealNames">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="strName" ColumnName="strName" />
+          <ScalarProperty Name="strSurname" ColumnName="strSurname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RegisteredUser">
+      <EntityTypeMapping TypeName="YandexMailOpener_dbModel.RegisteredUser">
+        <MappingFragment StoreEntitySet="RegisteredUser">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="regName" ColumnName="regName" />
+          <ScalarProperty Name="regSurname" ColumnName="regSurname" />
+          <ScalarProperty Name="regUserID" ColumnName="regUserID" />
+          <ScalarProperty Name="regPassword" ColumnName="regPassword" />
+          <ScalarProperty Name="regSecretAns" ColumnName="regSecretAns" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
